@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/media.css">
+    <link rel="icon" href="assets/icon2.png"> 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css" integrity="sha512-1cK78a1o+ht2JcaW6g8OXYwqpev9+6GqOkz9xmBN9iUUhIndKtxwILGWYOSibOKjLsEdjyjZvYDq/cZwNeak0w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>CodeServices</title>
+</head>
+<body class="body_hide">
+    <header class="header" id="home">
+        <div class="container">
+            <!-- Header nav -->
+            <div class="header-nav">
+                <a href="" class="logo">CodeServices</a>
+
+                <nav id="nav" class="nav">
+                    <ul class="nav-list">
+                        <li class="nav-item"><a href="#home" class="nav-link">Главная</a></li>
+                        <li class="nav-item"><a href="#uslugi" class="nav-link">Услуги</a></li>
+                        <li class="nav-item"><a href="#komanda" class="nav-link">Команда</a></li>
+                        <li class="nav-item"><a href="#kontakty" class="nav-link">Контакты</a></li>
+                    </ul>
+                </nav>
+
+                <div id="hamburger-icon" onclick="toggleMobileMenu(this)">
+                    <div class="bar1"></div>
+                    <div class="bar2"></div>
+                    <div class="bar3"></div>
+                    <ul class="mobile-menu">
+                        <li><a href="#home">Главная</a></li>
+                        <li><a href="#uslugi">Услуги</a></li>
+                        <li><a href="#komanda">Команда</a></li>
+                        <li><a href="#kontakty">Контакты</a></li>
+                    </ul>
+                </div>
+            </div>
+    </header>
+    <section class="container-2">
+        <div class="slogan">
+            <h1 class="slogan">Создаем веб<br>
+                который работает<br>
+                на <span style="color: rgb(31, 121, 28); font-style: italic;">вас</span></h1>
+            <p>Мы объединяем опытных разработчиков, UX/UI-дизайнеров и DevOps-специалистов, чтобы создавать передовые цифровые продукты. В работе мы используем современные технологии: <span style="color: rgb(0, 183, 255);">React</span>, <span style="color: rgb(2, 180, 2);">Node.js</span>, <span style="color: rgb(204, 204, 0);">Python</span>, Kubernetes и многое другое.</p>
+        </div>
+        <div class="things">
+            <h1>Наша философия:</h1>
+            <p><strong>Инновации</strong> – внедряем передовые решения<br>
+            <strong>Качество</strong> – чистый код, оптимизация и безопасность<br>
+            <strong>Гибкость</strong> – адаптируемся под задачи клиента</p>
+        </div>
+    </section>
+    <section class="services" id="uslugi">
+        <div class="container-2">
+            <div class="service-title">
+                <h1>Услуги, которые мы предлагаем:</h1>
+            </div>
+            <div class="services-row">
+
+                <div class="service-card" data-aos="fade-down">
+                    <img class="service-card-img" src="assets/2931142_minimize_minus_remove_line_icon.svg" alt="UI/UX Design">
+                    <h3 class="service-card-title">Веб-разработка</h3>
+                    <p>Разработка веб-приложений и сайтов любой сложности — от лендингов до масштабируемых корпоративных платформ.</p>
+                </div>
+
+                <div class="service-card" data-aos="fade-down">
+                    <img class="service-card-img" src="assets/2931142_minimize_minus_remove_line_icon.svg" alt="UI/UX Design">
+                    <h3 class="service-card-title">UI/UX</h3>
+                    <p>Проектируем удобные, стильные и интуитивно понятные интерфейсы, ориентированные на пользователя.</p>
+                </div>
+
+                <div class="service-card" data-aos="fade-down">
+                    <img class="service-card-img" src="assets/2931142_minimize_minus_remove_line_icon.svg" alt="UI/UX Design">
+                    <h3 class="service-card-title">Безопасность</h3>
+                    <p>Помогаем защитить ваши данные и оптимизировать производительность цифровых решений.</p>
+                </div>
+
+                <div class="service-card" data-aos="fade-down">
+                    <img class="service-card-img" src="assets/2931142_minimize_minus_remove_line_icon.svg" alt="Веб-Дизайн">
+                    <h3 class="service-card-title">Веб-Дизайн</h3>
+                    <p>Разработаем красивый дизайн для вашего сайта.</p>
+                </div>
+                <div class="service-card" data-aos="fade-down">
+                    <img class="service-card-img" src="assets/2931142_minimize_minus_remove_line_icon.svg" alt="Мобильная разработка">
+                    <h3 class="service-card-title">Мобильная разработка</h3>
+                    <p>Создаем мобильные приложения для iOS и Android, которые сочетают высокую производительность и отличный пользовательский опыт.</p>
+                </div>
+
+                <div class="service-card" data-aos="fade-down">
+                    <img class="service-card-img" src="assets/2931142_minimize_minus_remove_line_icon.svg" alt="palka">
+                    <h3 class="service-card-title">Индивидуальный подход</h3>
+                    <p>Спроектируем индивидуальный проект, выполнив все указаные условия клиента и обеспечим дальнейшую поддержку и обновление ПО</p>
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <section class="Our-team" id="komanda">
+        <div class="container-3">
+            <div class="team-content">
+                <h1>Наша команда:</h1>
+            </div>
+            <div class="team-row">
+                <div class="member-card">
+                    <img class="member-card-img" src="assets/photo_2025-03-23_21-49-32.jpg" alt="SEO" data-aos="fade-down">
+                    <h1 class="member-card-title">Кологривый Никита Сергеевич</h1>
+                    <p>Генеральный директор</p>
+                </div>
+
+                <div class="member-card">
+                    <img class="member-card-img" src="assets/Жопич.jpg" alt="Safety" data-aos="fade-down">
+                    <h1 class="member-card-title">Ломако Станислав Антонович</h1>
+                    <p>Специалист по безопасности</p>
+                </div>
+
+                <div class="member-card">
+                    <img class="member-card-img" src="assets/image.png" alt="UI/UX" data-aos="fade-down">
+                    <h1 class="member-card-title">Старояров Руслан Николаевич</h1>
+                    <p>UI/UX специалист</p>
+                </div>
+
+                <div class="member-card">
+                    <img src="assets/Серега Алопеция.jpg" alt="Senior Developer" id="Roman" data-aos="fade-down">
+                    <h1 class="member-card-title">Алопеция Роман Романович</h1>
+                    <p>Главный разработчик</p>
+                </div>
+
+                <div class="member-card">
+                    <img class="member-card-img" src="assets/Иван Золо.jpg" alt="Web-designer" data-aos="fade-down">
+                    <h1 class="member-card-title">Золочевский Иван Сергеевич</h1>
+                    <p>Веб-Дизайнер</p>
+                </div>
+            </div>
+        </div>
+
+    </section>
+    <section id="feedback"  class="feedback">
+        <div class="container">
+            <div class="section-header">
+                <h2>Отзывы клиентов</h2>
+            </div>
+            <div class="row">
+                <div class="comment-card">
+                <div class="comment">
+                    <p>
+                        Обратился к этой команде для создания мобильного приложения, и результат превзошел все ожидания! Ребята работают оперативно, учитывают все пожелания и предлагают отличные решения. Код чистый, интерфейс интуитивно понятный, а поддержка после сдачи проекта — на высоте. Спасибо за профессионализм!
+                    </p>
+                </div>
+                <div class="person">
+                    <h2><a href="#">Татарский миллионер</a></h2>
+                </div>
+                </div>
+                <div class="comment-card">
+                <div class="comment">
+                    <p>
+                        Невероятно доволен работой команды! Нам нужен был сложный веб-сервис с интеграцией сторонних API, и разработчики справились на 100%. Всегда были на связи, подробно объясняли все технические моменты и внесли массу полезных предложений. Видно, что люди действительно любят своё дело.
+                    </p>
+                </div>
+                <div class="person">
+                    <h2><a href="#">Фролов Александр</a></h2>
+                </div>
+                </div>
+                <div class="comment-card">
+                <div class="comment">
+                    <p>
+                        Если ищете надежную команду разработчиков, то вам сюда! Работали вместе над крупным проектом, и всё было сделано в срок, без задержек и с отличным качеством. Грамотный подход, гибкость и внимание к деталям – вот что отличает этих ребят. Обязательно будем сотрудничать снова!
+                    </p>
+                </div>
+                <div class="person">
+                    <h2><a href="#">Черногривов Петр</a></h2>
+                </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer class="contacts" id="kontakty">
+        <div class="container-4">
+            <div class="contacts-title">
+                <h2 class="title-1">Контакты</h2>
+            </div>
+            <div class="contacts-content" data-aos="fade-down">
+                <p>Главный разработчик</p>
+            </div>
+            <div class="contacts-social" data-aos="zoom-in">
+                <a href="https://t.me/mmm8070"><img src="./assets/telegram-svgrepo-com.svg" alt="Telegram" id="tg-logo"></a>
+            </div>
+        </div>
+    </footer>
+    <div class="under-footer">
+        <p>© 2025 </p>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js" integrity="sha512-A7AYk1fGKX6S2SsHywmPkrnzTZHrgiVT7GcQkLGDe2ev0aWb8zejytzS8wjo7PGEXKqJOrjQ4oORtnimIRZBtw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="./main.js"></script>
+</body>
+</html>
